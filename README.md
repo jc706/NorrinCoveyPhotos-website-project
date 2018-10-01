@@ -1,2 +1,3 @@
 # NorrinCoveyPhotos-website-project
-This is my website project, it is legit my dude.
+
+Html and Css for my class project website
