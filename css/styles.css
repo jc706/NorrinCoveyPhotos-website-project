@@ -56,6 +56,14 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
+.text-center{
+	text-align: center;
+}
+
+img{
+	margin: 0 auto 15px auto; 
+}
+
 .footer {
     position: fixed;
     left: 0;
