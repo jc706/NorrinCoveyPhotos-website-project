@@ -1,3 +1,5 @@
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -13,7 +15,7 @@ li {
 li a {
     display: block;
     color: white;
-    text-align: center; font: 25px arial, sans-serif;
+    text-align: center; font: 18px arial, sans-serif;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -59,7 +61,7 @@ tr:nth-child(even) {
 }
 
 img{
-	margin: 0 auto 15px auto; 
+	margin: 0 auto 15px auto; max-width: 100%; 
 }
 
 .footer {
@@ -70,3 +72,36 @@ img{
     background-color: #333;
     color: White;
     text-align: center;
+}
+	
+@media (max-width: 480px) {
+	h1{
+		width: 100%;
+		background-color: white;
+		text-align: center; font: 25px arial, sans-serif;
+	}
+	
+	li a {
+    display: block;
+    color: white;
+    text-align: center; font: 10px arial, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+	
+	img {
+		Max-width: 100%;
+	}
+	
+	.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: White;
+    text-align: center;
+}
+	
+	
+}
